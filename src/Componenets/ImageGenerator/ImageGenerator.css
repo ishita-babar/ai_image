@@ -1,0 +1,123 @@
+.ai-image-generator {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .header {
+    font-size: 70px;
+    font-weight: 500;
+    padding-bottom: 30px;
+  }
+  
+  .header span {
+    color: #B7B597;
+    font-weight: 600;
+  }
+  
+  .img-loading {
+    width: 512px;
+    text-align: center;
+  }
+
+  .image {
+    display: inline-block; /* Prevents the image from expanding to full width */
+  }
+  
+  .search-box {
+    display: flex;
+    width: 1000px;
+    height: 95px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: #6B8A7A;
+  }
+  
+  .search-input {
+    width: 600px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 32px;
+    color: #DAD3BE;
+    padding-left: 35px;
+    margin-right: 35px;
+  }
+  
+  .search-input::placeholder {
+    color: #B7B597;
+  }
+  
+  .generate-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 85px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: #B7B597;
+    cursor: pointer;
+  }
+  
+  .profile-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 30px;
+    background: #B7B597;
+    cursor: pointer;
+    color: #254336
+  }
+
+ 
+  .logout-button {
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 30px;
+    background: #B7B597;
+    cursor: pointer;
+    color: #254336;
+  }
+  
+  .profile-modal {
+    align-items: center;
+    font-size: 24px;
+    color:#DAD3BE
+  }
+  
+  .profile-modal h2 {
+    color: #DAD3BE; /* Text color */
+    font-size: 28px; /* Increase text size */
+    font-weight: bold; /* Make text bold */
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  .footer {
+    text-align: center;
+    color: #DAD3BE;
+  }
+  
